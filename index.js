@@ -1,4 +1,5 @@
-const app = "I don't do much."
+const app = "I don't do much.";
+var arrayKitten=kittens.slice();
 function destructivelyAppendKitten(name){
   kittens.push(name);
   return kittens;
@@ -16,7 +17,7 @@ function destructivelyRemoveFirstKitten(){
   return kittens;
 };
 function appendKitten(name){
-
+  return arrayKittens.push();
 };
 function prependKitten(name){
 
